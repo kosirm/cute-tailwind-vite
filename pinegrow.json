@@ -1,1 +1,116 @@
-{"files":{"public/index.html":{"frameworks":["cute-tailwind-vite","pg.insight.events","pg.vue.tree.painter","pg.tw.lib","pg.css.grid","pg.image.overlay","pg.code-validator","pg.project.items","pg.asset.manager","pg.ai.lib","tw","pg.html","pg.components"]},"index.html":{"frameworks":["cute-tailwind-vite","pg.tw.lib","pg.asset.manager","pg.project.items","@pinegrow/vite-plugin","pg.code-validator","project","pg.image.overlay","pg.css.grid","vite","app_designer","pg.vue.tree.painter","pg.insight.events","pg.ai.lib","pg.html","pg.components"]}},"open-pages":["index.html"],"urls":{"public/index.html":{"open-with-wrapper":false,"open-page-views":[{"w":1024,"h":0}]},"index.html":{"open-with-wrapper":false,"open-page-views":[{"w":768,"h":0}]},"_pginfo/used-classes.html":{"open-with-wrapper":false}},"tw-use-external-build":"1","recent-classes":["w-2/3","w-5/12","w-4/12","w-1/2","text-yellow-700","text-green-600","text-yellow-600","text-green-900","text-blue-900","text-pink-900","text-purple-200","text-green-800","text-yellow-800","text-purple-800","text-purple-500","text-pink-800","text-pink-600","text-pink-400","text-pink-500","text-purple-900","text-indigo-900","text-yellow-900","text-green-500","text-red-500","text-indigo-500","text-red-400","text-red-200","text-red-600","text-purple-600","text-indigo-600","text-blue-600","text-red-700","text-blue-700","text-pink-700","text-blue-400","text-green-400","text-yellow-400","text-purple-400","text-indigo-400","text-red-300"],"active-design-provider":"tw","design-settings":{"mode":"external","external_source_url":"src/assets/css/tailwind.css","external_help":null,"external_config_path":"/home/techakayy/Downloads/cute-tailwind-vite/tailwind.config.js","external_theme_path":"/home/techakayy/Downloads/cute-tailwind-vite/themes/pg-tailwindcss/tokens.cjs"},"breakpoints":["640px","768px","1024px","1280px","1536px"],"frameworks":["cute-tailwind-vite","pg.tw.lib","pg.asset.manager","pg.project.items","@pinegrow/vite-plugin","pg.code-validator","project","pg.image.overlay","pg.css.grid","vite","app_designer","pg.vue.tree.painter","pg.insight.events","pg.ai.lib","pg.html","pg.components"],"template_framework_id":"vue"}
+{
+  "files": {
+    "public/index.html": {
+      "frameworks": [
+        "cute-tailwind-vite",
+        "pg.insight.events",
+        "pg.vue.tree.painter",
+        "pg.tw.lib",
+        "pg.css.grid",
+        "pg.image.overlay",
+        "pg.code-validator",
+        "pg.project.items",
+        "pg.asset.manager",
+        "pg.ai.lib",
+        "tw",
+        "pg.html",
+        "pg.components"
+      ]
+    },
+    "index.html": {
+      "frameworks": [
+        "cute-tailwind-vite",
+        "pg.svg.lib",
+        "pg.tw.lib",
+        "pg.asset.manager",
+        "pg.project.items",
+        "pg.code-validator",
+        "pg.image.overlay",
+        "pg.css.grid",
+        "pg.insight.events",
+        "tw",
+        "pg.html",
+        "pg.components"
+      ]
+    }
+  },
+  "open-pages": ["index.html"],
+  "urls": {
+    "public/index.html": {
+      "open-with-wrapper": false,
+      "open-page-views": [{"w": 1024, "h": 0}]
+    },
+    "index.html": {
+      "open-with-wrapper": false,
+      "open-page-views": [{"w": 768, "h": 0}]
+    },
+    "_pginfo/used-classes.html": {"open-with-wrapper": false}
+  },
+  "tw-use-external-build": "1",
+  "recent-classes": [
+    "w-2/3",
+    "w-5/12",
+    "w-4/12",
+    "w-1/2",
+    "text-yellow-700",
+    "text-green-600",
+    "text-yellow-600",
+    "text-green-900",
+    "text-blue-900",
+    "text-pink-900",
+    "text-purple-200",
+    "text-green-800",
+    "text-yellow-800",
+    "text-purple-800",
+    "text-purple-500",
+    "text-pink-800",
+    "text-pink-600",
+    "text-pink-400",
+    "text-pink-500",
+    "text-purple-900",
+    "text-indigo-900",
+    "text-yellow-900",
+    "text-green-500",
+    "text-red-500",
+    "text-indigo-500",
+    "text-red-400",
+    "text-red-200",
+    "text-red-600",
+    "text-purple-600",
+    "text-indigo-600",
+    "text-blue-600",
+    "text-red-700",
+    "text-blue-700",
+    "text-pink-700",
+    "text-blue-400",
+    "text-green-400",
+    "text-yellow-400",
+    "text-purple-400",
+    "text-indigo-400",
+    "text-red-300"
+  ],
+  "active-design-provider": "tw",
+  "design-settings": {
+    "mode": "external",
+    "external_source_url": "src/assets/css/tailwind.css",
+    "external_help": null,
+    "external_config_path": "/home/techakayy/Downloads/cute-tailwind-vite/tailwind.config.js",
+    "external_theme_path": "/home/techakayy/Downloads/cute-tailwind-vite/themes/pg-tailwindcss/tokens.cjs"
+  },
+  "breakpoints": ["640px", "768px", "1024px", "1280px", "1536px"],
+  "frameworks": [
+    "cute-tailwind-vite",
+    "pg.svg.lib",
+    "pg.tw.lib",
+    "pg.asset.manager",
+    "pg.project.items",
+    "pg.code-validator",
+    "pg.image.overlay",
+    "pg.css.grid",
+    "pg.insight.events",
+    "tw",
+    "pg.html",
+    "pg.components"
+  ],
+  "template_framework_id": "vue"
+}

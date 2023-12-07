@@ -12,8 +12,8 @@
                 <dmcolor key="purple" color="rgba(139,92,246,1)" shade-50="rgba(245,243,255,1)" shade-100="rgba(237,233,254,1)" shade-200="rgba(221,214,254,1)" shade-300="rgba(196,181,253,1)" shade-400="rgba(167,139,250,1)" shade-500="rgba(139,92,246,1)" shade-600="rgba(124,58,237,1)" shade-700="rgba(109,40,217,1)" shade-800="rgba(91,33,182,1)" shade-900="rgba(76,29,149,1)"/>
                 <dmcolor key="pink" color="rgba(236,72,153,1)" shade-50="rgba(253,242,248,1)" shade-100="rgba(252,231,243,1)" shade-200="rgba(251,207,232,1)" shade-300="rgba(249,168,212,1)" shade-400="rgba(244,114,182,1)" shade-500="rgba(236,72,153,1)" shade-600="rgba(219,39,119,1)" shade-700="rgba(190,24,93,1)" shade-800="rgba(157,23,77,1)" shade-900="rgba(131,24,67,1)"/>
             </dmdesignskill>
-            <dmdesignskill skill="fonts"></dmdesignskill>
-            <dmdesignskill skill="background" image_for_colors="true" advanced="true" filter_blur="0" filter_brightness="100" filter_contrast="100" filter_grayscale="0" filter_hue-rotate="0" filter_invert="0" filter_opacity="100" filter_saturate="100" filter_sepia="0"></dmdesignskill>
+            <dmdesignskill skill="fonts" family_1="Lato" family_2="Fira Sans"></dmdesignskill>
+            <dmdesignskill skill="background" image_for_colors="true" advanced="true" filter_blur="0" filter_brightness="100" filter_contrast="100" filter_grayscale="0" filter_hue-rotate="0" filter_invert="0" filter_opacity="100" filter_saturate="100" filter_sepia="0" image="https://images.unsplash.com/photo-1682905926517-6be3768e29f0?ixid=M3wyMDkyMnwxfDF8c2VhcmNofDF8fHdhbGxwYXBlcnxlbnwwfHx8fDE3MDE5MTAxNDN8MA&ixlib=rb-4.0.3q=85&fm=jpg&crop=faces&cs=srgb&w=1200&fit=max"></dmdesignskill>
             <dmdesignskill skill="tailwind"></dmdesignskill>
         </dmdesign>
     </dmdesigns>

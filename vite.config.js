@@ -2,23 +2,12 @@
 
 import {fileURLToPath, URL} from 'node:url'
 import {defineConfig} from 'vite'
-import {liveDesigner} from '@pinegrow/vite-plugin'
 
 // import { visualizer } from 'rollup-plugin-visualizer'
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
-    liveDesigner({
-      //...
-      tailwindcss: {
-        configPath: 'tailwind.config.js',
-        cssPath: '@/assets/css/tailwind.css',
-        // themePath: false, // Set to false so that Design Panel is not used
-        // restartOnConfigUpdate: true,
-        restartOnThemeUpdate: true,
-      },
-    }),
     //...
   ],
   mode: 'development',
