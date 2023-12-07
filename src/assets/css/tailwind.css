@@ -1,0 +1,15 @@
+/* Pinegrow generated Design Panel Init Begin */
+
+/* Pinegrow generated Design Panel Init End */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Oswald:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Pinegrow generated Design Panel Extra Rules Begin */
+body,
+html {
+  min-height: 100vh;
+}
+
+/* Pinegrow generated Design Panel Extra Rules End */

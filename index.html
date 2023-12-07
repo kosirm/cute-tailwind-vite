@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>New page</title>
+    <link rel="stylesheet" href="dist/assets/css/output.css" />
+  </head>
+  <body class="ml-12 mt-16 p-8 shadow-2xl w-1/2">
+    <h1 class="font-heading mb-24 shadow-rainbow text-5xl">Hello, there!</h1>
+    <p class="text-blue-900">
+      Welcome to our amazing test page where we showcase our fancy customized
+      Tailwind CSS theme!
+    </p>
+    <div class="container mx-auto px-4">
+      <div class="flex flex-wrap justify-center">
+        <div class="p-4 w-full lg:w-7/12" x-data="searchBox">
+          <input
+            type="search"
+            name="search"
+            x-model.debounce:value="searchText"
+            x-bind:placeholder="placeholder" />
+          <div id="result" class="py-4">
+            <ul class="space-y-6">
+              <template x-for="result in results">
+                <li>
+                  <a
+                    x-bind:href="result.data.url"
+                    x-text="result.data.title"
+                    target="_blank"></a>
+                </li>
+              </template>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="dist/main.js"></script>
+  </body>
+</html>
