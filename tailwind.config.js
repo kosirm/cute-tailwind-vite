@@ -111,6 +111,8 @@ const pg_backgrounds = {
     "url('https://images.unsplash.com/photo-1682905926517-6be3768e29f0?ixid=M3wyMDkyMnwxfDF8c2VhcmNofDF8fHdhbGxwYXBlcnxlbnwwfHx8fDE3MDE5MTAxNDN8MA&ixlib=rb-4.0.3q=85&fm=jpg&crop=faces&cs=srgb&w=2000&fit=max')",
 }
 
+/* Pinegrow generated Design Panel End */
+
 export default {
   darkMode: 'class',
   plugins: [
