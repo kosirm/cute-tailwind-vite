@@ -9,6 +9,51 @@ import {defineConfig} from 'vite'
 export default defineConfig({
   plugins: [
     //...
+    {
+      name: 'custom-vite-plugin',
+      config: (config, {command, mode}) => {
+        if (process.env.NODE_ENV === 'production') {
+          Object.defineProperty(config.build.rollupOptions, 'input', {
+            get: function () {
+              return {
+                main: fileURLToPath(new URL('./index.html', import.meta.url)),
+                // introduction: fileURLToPath(new URL('./pages/introduction.html', import.meta.url)),
+                // blog: fileURLToPath(new URL('./pages/blog.html', import.meta.url)),
+              }
+            },
+          })
+          if (config.build.rollupOptions?.output) {
+            delete config.build.rollupOptions.output
+          }
+          config.build.minify = true
+          config.build.cssMinify = true
+          config.build.emptyOutDir = true
+          if (config.build.lib) {
+            delete config.build.lib
+          }
+        }
+      },
+      // configResolved: (resolvedConfig) => {
+      //   console.log(resolvedConfig)
+      // },
+      transform: (code, id) => {
+        if (process.env.NODE_ENV === 'production') {
+          if (id.endsWith('.html')) {
+            code = code.replace(
+              /<script(.*?)src="dist\/main.js"(.*?)><\/script>/,
+              `<script type="module" src="src/main.js"></script>`
+            )
+            code = code.replace(
+              /<link(.*?)href="dist\/assets\/css\/output.css"(.*?)\/>/,
+              ''
+            )
+          }
+          return {
+            code,
+          }
+        }
+      },
+    },
   ],
   mode: 'development',
   // base: '/dist',

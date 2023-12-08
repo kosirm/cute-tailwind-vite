@@ -12,7 +12,8 @@
     "dev": "npm-run-all --parallel watch serve",
     "serve": "vite",
     "watch": "NODE_ENV=development vite build  --watch",
-    "build": "vite build"
+    "build": "vite build",
+    "view": "vite preview --port 8080"
   },
   "keywords": [],
   "author": "",
