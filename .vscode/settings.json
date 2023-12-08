@@ -3,5 +3,6 @@
     "**/_pgbackup": true,
     "dist": true,
     ".unlighthouse": true
-  }
+  },
+  "editor.inlineSuggest.showToolbar": "always"
 }
